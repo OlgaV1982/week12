@@ -1,0 +1,80 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(0, 0, 0);
+    padding: 54px 100px 0px 100px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    color: rgb(6, 106, 247);
+    letter-spacing: 1.5px;
+}
+
+.titles {
+    display: flex;
+    gap: 80px;
+}
+
+.visitor_name, .visitor_avatar, .visitor_message {
+    color: white;
+}
+
+#name, #avatar, #message {
+    width: 300px;
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 2px rgb(6, 106, 247) dotted;
+    color: #FFFFFF;
+}
+
+#name, #avatar {
+    height: 30px;
+
+}
+
+#message {
+    height: 100px;
+    resize: none;
+}
+
+#send {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(3, 72, 169);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+#send:hover {
+    opacity: 0.9;
+}
+
+.forms {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    column-gap: 40px;
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.chat {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
